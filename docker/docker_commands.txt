@@ -1,0 +1,19 @@
+# Main commands
+## docker container list
+docker ps -a
+
+## remove docker container
+docker rm <container name>
+
+## Command to search a image from docker hub (the docker repository)
+docker search python
+
+## docker image list
+docker images
+
+## remove docker image
+docker rmi <image name>
+
+## execute a docker image: -p = port; --rm remove after stop; -d run in background; --name container name; -it run interactive;
+docker run -p 80:80 --rm -d --name container_nginx nginx
+
